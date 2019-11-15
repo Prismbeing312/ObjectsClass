@@ -20,7 +20,10 @@ public class Excersize1 {
 		int pAge = input.nextInt();
 		Person person1 = new Person(pname, pAge, myAddress);
         System.out.println(person1.toString());
-	
+        System.out.println();
+        System.out.println();
+	    Animal animal = new Animal("Dog", 4, "Brown");
+        System.out.println(animal.toString());
 		
        	}
 
