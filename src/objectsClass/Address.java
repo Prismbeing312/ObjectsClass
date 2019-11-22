@@ -7,10 +7,10 @@ public class Address {
        public String street;
        public int number;
 
-       public Address(String city, String street, int number) {
-		this.city = city;
-		this.street = street;
-		this.number = number;
+       public Address(String pcity, String pstreet, int pnumber) {
+		city = pcity;
+		street = pstreet;
+		number = pnumber;
 	}
        @Override
        public String toString() {
